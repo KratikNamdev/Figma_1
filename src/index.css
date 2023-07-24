@@ -1,13 +1,256 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  margin: 0;padding: 0;
+}
+.tabs{
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+.tab {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100px;
+  /* text-align: center; */
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* height: 30px; */
+  background-color: #EDEDED;
+  color: black;
+  border-radius: 20px;
+}
+.card-head{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.banner-titles{
+  height: 100px;
+  width: 100vw;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  background-color: #FAFAFA;
+
+}
+.App{
+  
+  width: 80vw;
+
+}
+.ex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.expbtn{
+  height: 30px;
+  background-color: black;
+  color: white;
+  width: 300px;
+
+  border-radius: 20px;
+}
+.shopnow{
+  width: 100%;
+  margin-top: 20px;
+}
+.banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #FAFAFA;
+}
+.collection-heading{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  flex-direction: row;
+}
+.allcoll{
+  height: 40px;
+  width: 100px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 40px;
+}
+.collection-grid{
+
+padding-left: 100px;
+display: flex;
+margin-top: 30px;
+flex-direction: row;
+
+}
+.collection-one{
+  height: 400px;
+  width: 400px;
+  border-radius: 10px;
+  /* background-color: #EDEDED; */
+  background-image: url(./Assets/hoodie.png);
+  background-size: cover;
+}
+.collection-two{
+height: 200px;
+width: 900px;
+border-radius: 10px;
+
+background-image: url(./Assets//Apparel_Mens_Banners_Shorts_1.jpg);
+margin-left: 30px;
+background-size: cover;
+}
+.collectionro{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.collection-three ,.collection-four{
+  width: 435px;
+  height: 180px;
+  background-color: antiquewhite;
+  margin-left: 30px;
+border-radius: 10px;
+background-size: cover;
+
+}
+.collection-three{
+  background-image: url(https://tse4.mm.bing.net/th?id=OIP.jdAAbV0D30s9TcL0m20dQAHaDa&pid=Api&P=0&h=180);
+}
+.collection-four{
+  background-image: url(https://www.meesports.com/site-contents/uploads/2017/01/Top_Banner_2_tshirt-1.jpg);
+}
+.coll-btn{
+  background-color: black;
+  color: white;
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+}
+.grabDealsection{display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+
+}
+.grabDeal{
+  height: 400px;
+  width: 700px;
+  border-radius: 10px;
+text-align: center;
+  background-color: antiquewhite;
+  background-image: url(https://www.thehappyscraps.com/wp-content/uploads/2017/05/t-shirt-banner.jpg);
+}
+.grabDeal h1{
+  margin-top: 50px;
+}
+.grabDeal button{
+  background-color: black;
+  color: white;
+  width: 120px;
+  height: 35px;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+.review{
+  background-color: #FAFAFA;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  margin-top: 50px;
+}
+.re-card{
+  height: 130px;
+  width: 400px;
+  padding: 10px;
+  margin-top: 40px;
+  /* background-color: aqua; */
+  border: 1px solid rgb(223, 220, 220);
+  border-radius: 10px;
+  background-color: white;
+}
+.card-top{
+  height: 50%;
+  align-items: center;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.name{
+  margin-left: 20px;
+}
+.review-profile img{
+  height: 70px;
+  border-radius: 50%;
+}
+.msg{
+  height: 35px;
+  background-color: black;
+  border-radius: 10px;
+color: white;
+padding: 10px;
+}
+.reviewcard{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Footer{
+  height: 50px;
+  background-color: #2D2D2D;
+  margin-top: 20px;
+  border-radius: 10px 10px 0px 0;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  padding-left: 100px;
+
+}
+.footer-search{
+  width: 700px;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.swiper {
+  width: 100%;
+  height: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tabs{
+  margin-top: 30px;
+  margin-bottom: 30px;
 }

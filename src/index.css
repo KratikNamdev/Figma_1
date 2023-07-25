@@ -29,6 +29,8 @@
   justify-content: space-between;
 }
 .banner-titles{
+  margin-bottom: 30px;
+  margin-top: 30px;
   height: 100px;
   width: 100vw;
   padding-top: 30px;
@@ -38,10 +40,19 @@
   align-items: center;
   flex-direction: row;
   background-color: #FAFAFA;
+  margin-bottom: 50px;
+
+}
+.left{
+  margin-left: -30px;
+}
+.right{
+  margin-left: -20px;
 
 }
 .App{
-  
+  margin-top: 30px;
+  margin-bottom: 30px;
   width: 80vw;
 
 }
@@ -265,18 +276,19 @@ padding: 10px;
   flex-direction: row;
 
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   background-color: #1B1B1B;
   
 }
 .navbar{
   display: flex;
-  width: 80vw;
-
+  width: 100vw;
+padding-left: 35px;
+padding-right: 35px;
   flex-direction: row;
 
   /* align-items: center; */
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 .searchbar{
   height: 40px;

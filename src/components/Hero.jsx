@@ -37,7 +37,7 @@ function Hero() {
     };
   return ( 
     <>
-    <AppBar position="static">
+    <AppBar position="static" sx={{background: "#2D2D2D"}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           {/* <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} /> */}
@@ -143,6 +143,11 @@ function Hero() {
           </Box>
         </Toolbar>
       </Container>
+    
+    
+        
+   
+
     </AppBar>
  
     </>

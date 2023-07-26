@@ -12,10 +12,8 @@ function BannerSection() {
         </div>
 
         <div className='right'>
-
         <p>
-        Discover Your Street Stylewith our<br></br>
-                Diverse Collection of Streetwear
+        Get your unique streetwear style with our various <br/>collections. Shop now to look fashionable with<br/> the latest trends
         </p>
 
         </div>

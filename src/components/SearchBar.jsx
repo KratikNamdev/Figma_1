@@ -3,6 +3,9 @@ import React from 'react'
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import DragHandleSharpIcon from '@mui/icons-material/DragHandleSharp';
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
+import cart from '../Assets/ant-design_user-outlined.svg'
+import menu from '../Assets/Component 1.svg'
+import menu2 from '../Assets/Header Menu.svg'
 
 
 function SearchBar() {
@@ -10,7 +13,7 @@ function SearchBar() {
     <>
 <div className='nav'>
 <div className='navbar'>
-    <Typography variant='h5' sx={{color: 'white'}}> LOGO </Typography>
+   <h1 className='logo'>LOGO</h1>
     <div className='searchbar'>
     <input placeholder='Search Products...'/>
 
@@ -18,9 +21,10 @@ function SearchBar() {
 
     </div>
     <div className='cart'>
-    <ShoppingCartIcon/>
-    <PersonOutlineIcon/>
-    <DragHandleSharpIcon/>
+    <img src={menu} />
+    <img src={cart} />
+    <img src={menu2} />
+
 
     </div>
 </div>

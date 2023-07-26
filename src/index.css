@@ -1,68 +1,76 @@
-*{
-  margin: 0;padding: 0;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
-.tabs{
-  /* width: 100vw; */
+.topnav {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.menu {
+  margin-left: 130px;
+}
+.tabs {
+  
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
 
-}
 .tab {
+  margin-bottom: 40px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  width: 100px;
-  /* text-align: center; */
-  padding: 5px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  /* height: 30px; */
-  background-color: #EDEDED;
-  color: black;
-  border-radius: 20px;
+  justify-content:center;
+  align-items: center;
+  height: 54px;
+  text-align: center;
+  border-radius: 35px;
+  padding-left: 52px;
+  padding-right: 52px;
+  background-color: #ededed;
+  color: #212121;
+  font-weight: 600;
 }
-.card-head{
+.card-head {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.banner-titles{
-  margin-bottom: 30px;
-  margin-top: 30px;
+.active{
+  background-color: #212121;
+  color: #ededed;
+}
+.banner-titles {
+  margin-top: 70px;
   height: 100px;
+
   width: 100vw;
-  padding-top: 30px;
-  padding-bottom: 30px;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
   flex-direction: row;
-  background-color: #FAFAFA;
-  margin-bottom: 50px;
+  justify-content: center;
+}
+.left {
+width: 50%;
 
+/* text-align: center; */
 }
-.left{
-  margin-left: -30px;
+.right {
+ 
 }
-.right{
-  margin-left: -20px;
-
-}
-.App{
+.App {
   margin-top: 30px;
   margin-bottom: 30px;
   width: 80vw;
-
 }
-.ex{
+.ex {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 30px;
 }
-.expbtn{
+.expbtn {
   height: 30px;
   background-color: black;
   color: white;
@@ -70,18 +78,18 @@
 
   border-radius: 20px;
 }
-.shopnow{
+.shopnow {
   width: 100%;
   margin-top: 20px;
 }
-.banner{
+.banner {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
-.collection-heading{
+.collection-heading {
   margin-top: 40px;
   display: flex;
   justify-content: space-between;
@@ -89,7 +97,7 @@
   padding-right: 100px;
   flex-direction: row;
 }
-.allcoll{
+.allcoll {
   height: 40px;
   width: 100px;
   background-color: black;
@@ -100,15 +108,13 @@
   align-items: center;
   border-radius: 40px;
 }
-.collection-grid{
-
-padding-left: 100px;
-display: flex;
-margin-top: 30px;
-flex-direction: row;
-
+.collection-grid {
+  padding-left: 100px;
+  display: flex;
+  margin-top: 30px;
+  flex-direction: row;
 }
-.collection-one{
+.collection-one {
   height: 400px;
   width: 400px;
   border-radius: 10px;
@@ -116,75 +122,120 @@ flex-direction: row;
   background-image: url(./Assets/hoodie.png);
   background-size: cover;
 }
-.collection-two{
-height: 200px;
-width: 900px;
-border-radius: 10px;
-
-background-image: url(./Assets//Apparel_Mens_Banners_Shorts_1.jpg);
-margin-left: 30px;
-background-size: cover;
+.collection-two {
+  height: 200px;
+  width: 900px;
+  border-radius: 10px;
+background-color: #F3F3F3;
+  background-image: url(./Assets/1\ \(3\).png);
+  margin-left: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.collectionro{
+.collectionro {
   display: flex;
   flex-direction: row;
   margin-top: 20px;
 }
-.collection-three ,.collection-four{
+.collection-three,
+.collection-four {
+background-color: #F3F3F3;
+
   width: 435px;
   height: 180px;
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
   margin-left: 30px;
-border-radius: 10px;
-background-size: cover;
-
+  border-radius: 10px;
+  background-size: cover;
 }
-.collection-three{
-  background-image: url(https://tse4.mm.bing.net/th?id=OIP.jdAAbV0D30s9TcL0m20dQAHaDa&pid=Api&P=0&h=180);
+.collection-three {
+  background-image: url(./Assets/1\ \(2\).png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.collection-four{
-  background-image: url(https://www.meesports.com/site-contents/uploads/2017/01/Top_Banner_2_tshirt-1.jpg);
+.collection-four {
+  background-image: url(./Assets/1\ \(1\).png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.coll-btn{
+.coll-one {
   background-color: black;
   color: white;
-  width: 100px;
-  height: 30px;
-  border-radius: 20px;
+  width: 171px;
+  height: 54px;
+  border-radius: 30px;
+  margin-top: 330px;
+  margin-left: 30px;
 }
-.grabDealsection{display: flex;
+.coll-two {
+  background-color: black;
+  color: white;
+  width: 150px;
+  height: 45px;
+
+  border-radius: 30px;
+  margin-top: 120px;
+  margin-left: 30px;
+}
+.coll-three {
+  background-color: black;
+  color: white;
+  width: 159px;
+  height: 45px;
+
+  border-radius: 30px;
+  margin-top: 120px;
+  margin-left: 30px;
+}
+.coll-four {
+  background-color: black;
+  color: white;
+  width: 159px;
+  height: 45px;
+  border-radius: 30px;
+  margin-top: 120px;
+  margin-left: 30px;
+}
+.grabDealsection {
+  display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 50px;
-
 }
-.grabDeal{
-  height: 400px;
-  width: 700px;
+.grabDeal {
+  height: 479px;
+  width: 970px;
   border-radius: 10px;
-text-align: center;
+  text-align: center;
   background-color: antiquewhite;
-  background-image: url(https://www.thehappyscraps.com/wp-content/uploads/2017/05/t-shirt-banner.jpg);
+  background-image: url(./Assets/Rectangle\ 24.png);
+  background-size: cover;
 }
-.grabDeal h1{
+.grabDeal h2 {
+  font-weight: 800;
   margin-top: 50px;
 }
-.grabDeal button{
+.grabDeal button {
   background-color: black;
   color: white;
-  width: 120px;
-  height: 35px;
-  border-radius: 20px;
+  width: 185px;
+  height: 54px;
+  border-radius: 30px;
   margin-top: 50px;
 }
-.review{
-  background-color: #FAFAFA;
+.review {
+  background-color: #fafafa;
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 50px;
   margin-top: 50px;
 }
-.re-card{
+.re-card {
   height: 150px;
   width: 400px;
   padding: 10px;
@@ -194,36 +245,36 @@ text-align: center;
   border-radius: 10px;
   background-color: white;
 }
-.card-top{
+.card-top {
   height: 50%;
   align-items: center;
   padding: 10px;
   display: flex;
   flex-direction: row;
 }
-.name{
+.name {
   margin-left: 20px;
 }
-.review-profile img{
+.review-profile img {
   height: 70px;
   border-radius: 50%;
 }
-.msg{
+.msg {
   height: 35px;
   margin-top: 10px;
   background-color: black;
   border-radius: 10px;
-color: white;
-padding: 10px;
+  color: white;
+  padding: 10px;
 }
-.reviewcard{
+.reviewcard {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.Footer{
+.Footer {
   height: 50px;
-  background-color: #2D2D2D;
+  background-color: #2d2d2d;
   margin-top: 20px;
   border-radius: 10px 10px 0px 0;
   color: white;
@@ -232,13 +283,11 @@ padding: 10px;
   justify-content: space-between;
   padding: 50px;
   padding-left: 100px;
-
 }
-.footer-search{
+.footer-search {
   width: 700px;
   display: flex;
   justify-content: space-evenly;
-  
 }
 .swiper {
   width: 100%;
@@ -263,52 +312,182 @@ padding: 10px;
   object-fit: cover;
 }
 
-.tabs{
-  margin-top: 30px;
+.tabs {
+  margin-top: 80px;
   margin-bottom: 30px;
 }
-.nav{
+.nav {
   width: 100vw;
-  height: 80px;
+  height: 100px;
   display: flex;
-
-
   flex-direction: row;
-
   align-items: center;
   justify-content: space-between;
-  background-color: #1B1B1B;
-  
+  background-color: #1b1b1b;
 }
-.navbar{
+.navbar {
   display: flex;
   width: 100vw;
-padding-left: 35px;
-padding-right: 35px;
+  padding-left: 110px;
+  padding-right: 115px;
   flex-direction: row;
 
   /* align-items: center; */
   /* justify-content: space-between; */
 }
-.searchbar{
-  height: 40px;
-  width: 500px;
+.searchbar {
+  height: 53px;
+  width: 600px;
   border-radius: 30px;
   border: 1px solid white;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.searchbar input{
+.searchbar input {
   width: 200px;
   background: none;
   border: none;
   margin-left: 20px;
 }
-.cart{
+.cart {
   color: white;
   width: 100px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.slider-one {
+  height: 100vh;
+  width: 100vw;
+  padding: 100px;
+  background-image: url(./Assets/image\ 2.png);
+  color: white;
+}
+.slider-one h1 {
+  font-weight: 800;
+}
+.slider-one p {
+  margin-top: 30px;
+  font-weight: 500;
+}
+.slider-one button {
+  height: 54px;
+  width: 185px;
+  border: none;
+  border-radius: 40px;
+  font-weight: 600;
+  margin-top: 50px;
+}
+.logo {
+  font-weight: 800;
+  color: white;
+}
+.products{
+  display: flex;
+flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+.product-card{
+  height: 400px;
+  width: 275px;
+
+  display: flex;
+flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+.product-title{
+  margin-top: 20px;
+
+}
+.product-img img{
+  border-radius: 10px;
+}
+.product-img{
+  height: 70%;
+  background-color: #F3F3F3;
+  border-radius: 10px;
+
+}
+.product-details{
+  height: 15%;
+ 
+
+}
+.product-title{
+  display: flex;
+  justify-content: space-between;
+}
+.marquee-box{
+  height: 360px;
+  width: 100vw;
+ margin-top: 30px;
+ 
+}
+.scrolling-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.scrolling-text {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scrollText 50s linear infinite;
+  display: flex;
+ flex-direction: row;
+}
+.marquee-img{
+  margin-left: 30px;
+}
+.marquee-slider{
+  height: 346px;
+  width: 570px;
+ 
+  background-image: url(./Assets/Rectangle\ 16.png);
+  margin-left: 30px;
+}
+.marquee-slider p{
+  font-size: 32px;
+  font-weight: 600;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+
+}
+.marquee-slider1{
+  background-image: url(./Assets//Rectangle\ 17.png);
+}
+
+@keyframes scrollText {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.explore{
+  height: 54px;
+  width: 283px;
+  background-color: #212121;
+  color: #EEEEEE;
+  border-radius: 30px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.shop-marquee{
+  width: 100vw;
+  height: 80px;
+  background-color: #000000;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.svg-shop{
+ height: 40px;
 }

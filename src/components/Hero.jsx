@@ -37,7 +37,7 @@ function Hero() {
     };
   return ( 
     <>
-    <AppBar position="static" sx={{background: "#2D2D2D"}}>
+    <AppBar position="static" sx={{background: "#2D2D2D"}} className='topnav'>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           {/* <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} /> */}
@@ -73,8 +73,8 @@ function Hero() {
               }}
             >
               {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
+                <MenuItem key={page} onClick={handleCloseNavMenu} >
+                  <Typography className='menu' textAlign="center">{page}</Typography>
                 </MenuItem>
               ))}
             

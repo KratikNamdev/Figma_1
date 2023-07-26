@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import slideone from '../Assets/artwork-banner.jpg'
+
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
@@ -29,8 +29,19 @@ function Slider() {
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide>
-        <img src={slideone}></img></SwiperSlide>
+        <SwiperSlide className='slider-one'>
+        <h1>
+        Discover Your Street Style with Our
+        </h1>
+        <h1>
+       Diverse Collection of Streetwear
+        </h1>
+        <p>Get your unique streetwear style with our various collections.<br/> Shop now to look fashionable with the latest trends</p>
+      <button>Shop Now</button>
+        </SwiperSlide>
+        {/* <SwiperSlide>
+        
+        </SwiperSlide> */}
         
       </Swiper>
     </>

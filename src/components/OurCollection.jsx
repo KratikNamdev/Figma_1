@@ -12,19 +12,19 @@ function OurCollection() {
       </div>
       <div className="collection-grid">
         <div className="collection-one">
-          <button className="coll-btn">Hoodies</button>
+          <button className="coll-one">Hoodies</button>
         </div>
         <div className="collection-row">
           <div className="collection-two">
-            <button className="coll-btn">Shorts</button>
+            <button className="coll-two">Shorts</button>
           </div>
 
           <div className="collectionro">
             <div className="collection-three">
-              <button className="coll-btn">T-shirt</button>
+              <button className="coll-three">T-shirt</button>
             </div>
             <div className="collection-four">
-              <button className="coll-btn">T-shirt</button>
+              <button className="coll-four">T-shirt</button>
             </div>
           </div>
         </div>

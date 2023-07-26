@@ -1,40 +1,32 @@
 import React from 'react'
-import Typography from '@mui/material/Typography';
-import Link from '@mui/material/Link';
-import FormControl from '@mui/material/FormControl';
-import FormLabel from '@mui/material/FormLabel';
-import Input from '@mui/material/Input';
+import send from '../Assets/send-2.svg'
 
 function Footer() {
   return (
-    <div className='Footer'>
-    <div>
-    <Typography variant="h5" component="h2">
- Logo
-</Typography>
-    </div>
-    <div className='footer-link'>
+    <>
+      <div className='footer'>
+      <div className='footer-cont'>
+        <h2>LOGO</h2>
+        <ul>
+          <li>Home</li>
+          <li>Catalog</li>
+          <li>Blog</li>
+          <li>Pages</li>
+          <li>About us</li>
 
-    </div>
-    <div className='footer-search'>
-    <Link href="#">Home</Link>
-    <Link href="#">Catlog</Link>
-    <Link href="#">Blog</Link>
-    <Link href="#">Pages</Link>
-    <Link href="#">About Us</Link>
+        </ul>
+<div className='newsletter'>
+      <lable className='lable'>Subscribe Our Newsletter</lable>
+      <div className='input-section'>
+        <input placeholder='Email address'/>
+        <img src={send}/>
+      </div>
+</div>
 
+      </div>
 
-    </div>
-    <div>
-
-    <FormControl>
-      <FormLabel style={{color:"white"}}>Subscribe Our Newsletter</FormLabel>
-      <Input style={{color:"white"}} placeholder="Enter Email Address" />
-      
-    </FormControl>
-    </div>
-
-    </div>
+      </div>
+    </>
   )
 }
 

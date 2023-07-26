@@ -1,54 +1,67 @@
 import React from 'react'
+import profile1 from '../Assets/Frame 61 (2).png'
+import profile2 from '../Assets/Frame 61 (3).png'
+import profile3 from '../Assets/Frame 61 (4).png'
+
 
 function Review() {
   return (
     <div className='review'>
 
-        <h1>Our Customer Review</h1>
+        <h1 style={{fontWeight:800}}>Our Customer Review</h1>
         <div className='reviewcard'>
         <div className='re-card'>
-        <div className='card-top'>
-        <div className='review-profile'>
-            <img src='https://tse3.mm.bing.net/th?id=OIP.5A_p9dHTe_Aud8lCUeRaeQHaHe&pid=Api&P=0&h=180'></img>
+        <div className='review-top'>
+        <div className='review-img'>
+            <img src={profile1} />
+            
         </div>
-        <div className='name'>
-            <strong><p>Figma Desgin</p></strong>
-        </div>
+        <p>Chaitanya Goyal</p>
 
         </div>
-        <div className='msg'>
-            hii
-        </div>
+        <div className='msgs'>
+        <p>
+        I just got my first order and I have one word WOW!!!! Love, Love, Love these cloths!!
+        </p>
 
         </div>
-        <div className='re-card'>
-        <div className='card-top'>
-        <div className='review-profile'>
-            <img src='https://tse3.mm.bing.net/th?id=OIP.5A_p9dHTe_Aud8lCUeRaeQHaHe&pid=Api&P=0&h=180'></img>
-        </div>
-        <div className='name'>
-            <strong><p>Figma Desgin</p></strong>
-        </div>
-
-        </div>
-        <div className='msg'>
-            hii
-        </div>
+       
 
         </div>
         <div className='re-card'>
-        <div className='card-top'>
-        <div className='review-profile'>
-            <img src='https://tse3.mm.bing.net/th?id=OIP.5A_p9dHTe_Aud8lCUeRaeQHaHe&pid=Api&P=0&h=180'></img>
+        <div className='review-top'>
+        <div className='review-img'>
+            <img src={profile2} />
+            
         </div>
-        <div className='name'>
-            <strong><p>Figma Desgin</p></strong>
-        </div>
+        <p>Chaitanya Goyal</p>
 
         </div>
-        <div className='msg'>
-            hii
+        <div className='msgs'>
+        <p>
+        I just got my first order and I have one word WOW!!!! Love, Love, Love these cloths!!
+        </p>
+
         </div>
+       
+
+        </div>
+        <div className='re-card'>
+        <div className='review-top'>
+        <div className='review-img'>
+            <img src={profile3} />
+            
+        </div>
+        <p>Chaitanya Goyal</p>
+
+        </div>
+        <div className='msgs'>
+        <p>
+        I just got my first order and I have one word WOW!!!! Love, Love, Love these cloths!!
+        </p>
+
+        </div>
+       
 
         </div>
         

@@ -5,7 +5,7 @@ function OurCollection() {
   return (
     <>
       <div className="collection-heading">
-        <h1>Our New Collection</h1>
+        <h1 style={{fontWeight:800}}>Our New Collection</h1>
         <button className="allcoll">
           See All <ArrowRightAltIcon />
         </button>

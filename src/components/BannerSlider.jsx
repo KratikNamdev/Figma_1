@@ -1,6 +1,7 @@
 import React from 'react'
 import slid1 from '../Assets/Rectangle 16.png'
 import svg from '../Assets/SVG.png'
+import shop from '../Assets/shop.png'
 
 
 function BannerSlider() {
@@ -32,7 +33,8 @@ function BannerSlider() {
    <div className='shop-marquee'>
    <div className="scrolling-container">
       <div className="scrolling-text">
-       <h1> Shop <img src={svg} className='svg-shop'/></h1>
+       {/* <h1> Shop <img src={svg} className='svg-shop'/></h1> */}
+       <img src={shop}/>
       </div>
     </div>
    </div>

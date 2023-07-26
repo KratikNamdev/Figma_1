@@ -235,9 +235,14 @@ background-color: #F3F3F3;
   padding-top: 50px;
   margin-top: 50px;
 }
+.reviewcard{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .re-card {
-  height: 150px;
-  width: 400px;
+  height: 214.49px;
+  width: 383.43px;
   padding: 10px;
   margin-top: 40px;
   /* background-color: aqua; */
@@ -245,50 +250,36 @@ background-color: #F3F3F3;
   border-radius: 10px;
   background-color: white;
 }
-.card-top {
-  height: 50%;
-  align-items: center;
-  padding: 10px;
+.review-img{
+  height: 90px;
+  width: 90px;
+  /* background-color: red; */
   display: flex;
-  flex-direction: row;
-}
-.name {
-  margin-left: 20px;
-}
-.review-profile img {
-  height: 70px;
+  justify-content: center;
+  align-items: center;
   border-radius: 50%;
+  
 }
-.msg {
-  height: 35px;
-  margin-top: 10px;
-  background-color: black;
-  border-radius: 10px;
-  color: white;
-  padding: 10px;
-}
-.reviewcard {
+.review-top{
+  height: 100px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-}
-.Footer {
-  height: 50px;
-  background-color: #2d2d2d;
-  margin-top: 20px;
-  border-radius: 10px 10px 0px 0;
-  color: white;
-  display: flex;
+  /* justify-content: space-between; */
   align-items: center;
-  justify-content: space-between;
-  padding: 50px;
-  padding-left: 100px;
 }
-.footer-search {
-  width: 700px;
-  display: flex;
-  justify-content: space-evenly;
+.review-top p{
+margin-left: 20px;
 }
+
+.msgs{
+  background-color: #212121;
+  border-radius: 20px;
+  color: #EEEEEE;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 12px;
+}
+
 .swiper {
   width: 100%;
   height: 100%;
@@ -490,4 +481,53 @@ flex-direction: column;
 }
 .svg-shop{
  height: 40px;
+}
+.footer{
+  height: 250px;
+  background-color: #2D2D2D;
+  margin-top: 50px;
+  border-radius: 20px 20px 0 0;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+.footer-cont{
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-cont ul{
+  width: 700px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+li{
+  text-decoration: none;
+  list-style: none;
+}
+.footer-cont h2{
+  font-weight: 700;
+}
+.input-section{
+  height: 50px;
+  width: 300px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+}
+.newsletter{
+  margin-top: -50px;
+}
+.input-section input{
+  border: none;
 }

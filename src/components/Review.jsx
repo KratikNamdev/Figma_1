@@ -9,6 +9,7 @@ function Review() {
     <div className='review'>
 
         <h1 style={{fontWeight:800}}>Our Customer Review</h1>
+        <div className='review-container'>
         <div className='reviewcard'>
         <div className='re-card'>
         <div className='review-top'>
@@ -21,7 +22,7 @@ function Review() {
         </div>
         <div className='msgs'>
         <p>
-        I just got my first order and I have one word WOW!!!! Love, Love, Love these cloths!!
+        I just got my first order and I have one word<br/> WOW!!!! Love, Love, Love these cloths!!
         </p>
 
         </div>
@@ -39,7 +40,7 @@ function Review() {
         </div>
         <div className='msgs'>
         <p>
-        I just got my first order and I have one word WOW!!!! Love, Love, Love these cloths!!
+        I just got my first order and I have one word <br/>WOW!!!! Love, Love, Love these cloths!!
         </p>
 
         </div>
@@ -57,7 +58,7 @@ function Review() {
         </div>
         <div className='msgs'>
         <p>
-        I just got my first order and I have one word WOW!!!! Love, Love, Love these cloths!!
+        I just got my first order and I have one word<br/> WOW!!!! Love, Love, Love these cloths!!
         </p>
 
         </div>
@@ -66,6 +67,10 @@ function Review() {
         </div>
         
          </div>
+
+        </div>
+        
+        
          
     </div>
   )

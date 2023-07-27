@@ -17,7 +17,8 @@ function BannerSection() {
         </p>
 
         </div>
-    </div>
+    </div><br/>
+    <br/>
 
 
 

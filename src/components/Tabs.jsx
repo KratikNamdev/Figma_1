@@ -3,7 +3,9 @@ import React from 'react'
 function Tabs() {
   return (
    <>
-    <div className='tabs'>
+
+   <div className='tabs-container'>
+   <div className='tabs'>
     <div className='tab active'>All</div>
     <div className='tab'>T-shirt</div>
     <div className='tab'>Hoodies</div>
@@ -16,6 +18,9 @@ function Tabs() {
 
 
     </div>
+
+   </div>
+    
    </>
   )
 }

@@ -11,8 +11,9 @@
 .menu {
   margin-left: 130px;
 }
+
+/* Your existing CSS styles for the tabs */
 .tabs {
-  
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -22,7 +23,7 @@
   margin-bottom: 40px;
   display: flex;
   flex-direction: row;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   height: 54px;
   text-align: center;
@@ -33,6 +34,27 @@
   color: #212121;
   font-weight: 600;
 }
+
+/* Additional styles for responsive design */
+.tabs-container {
+  overflow-x: auto; /* Enable horizontal scrolling */
+  white-space: nowrap; /* Prevent tabs from wrapping to the next line */
+}
+
+/* Adjust the breakpoint as needed to target smaller screens */
+@media (max-width: 768px) {
+  .tabs{
+    padding-left: 150px;
+
+  }
+  .tab {
+    height: 40px;
+    /* Adjust padding for smaller screens to make tabs more compact */
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
 .card-head {
   display: flex;
   flex-direction: row;
@@ -45,7 +67,6 @@
 .banner-titles {
   margin-top: 70px;
   height: 100px;
-
   width: 100vw;
   display: flex;
   flex-direction: row;
@@ -308,7 +329,7 @@ margin-left: 20px;
   margin-bottom: 30px;
 }
 .nav {
-  width: 100vw;
+  /* width: 100vw; */
   height: 100px;
   display: flex;
   flex-direction: row;
@@ -376,7 +397,7 @@ margin-left: 20px;
 }
 .products{
   display: flex;
-flex-direction: row;
+  flex-direction: row;
   justify-content: space-between;
   margin-bottom: 80px;
 }
@@ -385,10 +406,17 @@ flex-direction: row;
   width: 275px;
 
   display: flex;
-flex-direction: column;
+  flex-direction: column;
   justify-content: space-between;
   border-radius: 10px;
   margin-bottom: 50px;
+}
+.pd-section{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
 }
 .product-title{
   margin-top: 20px;
@@ -479,6 +507,9 @@ flex-direction: column;
   align-items: center;
   margin-bottom: 50px;
 }
+.shop-marquee img{
+  width: 100%;
+}
 .svg-shop{
  height: 40px;
 }
@@ -530,4 +561,113 @@ li{
 }
 .input-section input{
   border: none;
+}
+@media (max-width: 768px){
+.logo{
+  display: none;
+}
+.navbar{
+  width: 100vw;
+  padding-left: 10px;
+  padding-right: 10px;
+ 
+}
+.searchbar{
+  width: 55%;
+  height: 40px;
+  
+}
+  .return{
+      display: none;
+  }
+  .slider-one {
+    height: 60vh;
+    width: 100vw;
+   background-position: center;
+  padding: 40px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+
+   background-repeat: no-repeat;
+  }
+  .slider-one h1 {
+    font-weight: 800;
+    font-size: 18px;
+    text-align: start;
+    width: 80vw;
+  }
+  .slider-one p {
+    margin-top: 3px;
+    font-weight: 500;
+    font-size: 10px;
+    text-align: left;
+    width: 80vw;
+  }
+  .slider-one button {
+    height: 54px;
+    width: 185px;
+    border: none;
+    border-radius: 40px;
+    font-weight: 600;
+    margin-top: 15px;
+  }
+
+  .products{
+    flex-direction: column;
+  }
+  .product-card{
+    height: 250px;
+    width: 150px;
+    
+  }
+  .pd-section{
+    width: 100%;
+  }
+  .product-card img{
+    height: 200px;
+  }
+  .product-title h5{
+    font-size: 10px;
+
+  }
+  .product-details p{
+    font-size: 10px;
+  }
+  .banner-titles{
+    flex-direction: column;
+  }
+  .left {
+    width: 100%;
+    margin-top: 30px;
+    padding: 10px;
+    }
+    .right{
+      width: 100%;
+ 
+      padding: 10px;
+    }
+    .left h1{
+      font-size: 20px;
+    }
+    .right p{
+      font-size: 13px;
+    }
+    .marquee-box{
+      height: 260px;
+      width: 100vw;
+     margin-top: 30px;
+     
+    }
+    .marquee-slider{
+      height: 200px;
+      width: 500px;
+      background-size: cover;
+    }
+    .scrolling-text {
+      display: inline-block;
+      /* white-space: nowrap; */
+      animation: scrollText 50s linear infinite;
+      display: flex;
+     flex-direction: row;
+    }
 }

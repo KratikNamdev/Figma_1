@@ -13,10 +13,10 @@ function BannerSlider() {
       <div className="scrolling-text">
        
       <div className='marquee-slider'>
-    <p className='mq-text'>Wibu Style <br/>Collection</p>
+    
       </div>
       <div className='marquee-slider marquee-slider1'>
-    <p className='mq-text'>Wibu Style <br/>Collection</p>
+   
       </div>
 
 
@@ -31,14 +31,11 @@ function BannerSlider() {
 
    <button className='explore'>Explore Our Collection</button>
    <div className='shop-marquee'>
-   <div className="scrolling-container">
-      <div className="scrolling-text">
+  
        {/* <h1> Shop <img src={svg} className='svg-shop'/></h1> */}
        <img src={shop}/>
       </div>
-    </div>
-   </div>
-   
+
    </>
   )
 }

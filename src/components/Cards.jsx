@@ -18,6 +18,7 @@ function Cards() {
       <div className='products'>
 
  
+<div className='pd-section'>
 <div className='product-card'>
 <div className='product-img'>
   <img src={tshirt} />
@@ -50,6 +51,10 @@ function Cards() {
 
 
 </div>
+</div>
+
+
+<div className='pd-section'>
 <div className='product-card'>
 <div className='product-img'>
   <img src={tshirt3} />
@@ -82,34 +87,15 @@ function Cards() {
 
 
 </div>
+</div>
 
-{/* <Card sx={{ maxWidth: 345 }}>
-    <CardMedia
-      component="img"
-      alt="green iguana"
-      height="400"
-      image={tshirt}
-    />
-    <CardContent>
-      <div className='card-head'>
-      <Typography gutterBottom variant="h6" component="div">
-       <strong> T-Shirt Basic</strong>
-      </Typography>
-      <Typography gutterBottom variant="h6" component="div">
-       <strong> $30.00</strong>
-      </Typography>
-      </div>
 
-      <Typography variant="body2" color="text.secondary">
-       Oversize White
-      </Typography>
-    </CardContent>
-    
-  </Card> */}
+
   </div>
   <div className='products'>
 
  
+<div className='pd-section'>
 <div className='product-card'>
 <div className='product-img'>
   <img src={tshirt} />
@@ -142,6 +128,10 @@ function Cards() {
 
 
 </div>
+</div>
+
+
+<div className='pd-section'>
 <div className='product-card'>
 <div className='product-img'>
   <img src={tshirt3} />
@@ -174,31 +164,14 @@ function Cards() {
 
 
 </div>
+</div>
 
-{/* <Card sx={{ maxWidth: 345 }}>
-    <CardMedia
-      component="img"
-      alt="green iguana"
-      height="400"
-      image={tshirt}
-    />
-    <CardContent>
-      <div className='card-head'>
-      <Typography gutterBottom variant="h6" component="div">
-       <strong> T-Shirt Basic</strong>
-      </Typography>
-      <Typography gutterBottom variant="h6" component="div">
-       <strong> $30.00</strong>
-      </Typography>
-      </div>
 
-      <Typography variant="body2" color="text.secondary">
-       Oversize White
-      </Typography>
-    </CardContent>
-    
-  </Card> */}
+
   </div>
+
+
+  
     </>
   )
 }

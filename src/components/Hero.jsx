@@ -139,7 +139,7 @@ function Hero() {
                 </MenuItem>
               ))}
             </Menu> */}
-            <Typography textAlign="center">30 Days Free Return</Typography>
+            <Typography textAlign="center" className='return'>30 Days Free Return</Typography>
           </Box>
         </Toolbar>
       </Container>

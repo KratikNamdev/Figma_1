@@ -1,35 +1,39 @@
 
 import './App.css';
-import BannerSection from './components/BannerSection';
-import BannerSlider from './components/BannerSlider';
-import Cards from './components/Cards';
-import Footer from './components/Footer';
-import GrabDeal from './components/GrabDeal';
-import Hero from './components/Hero';
-import OurCollection from './components/OurCollection';
-import Review from './components/Review';
-import SearchBar from './components/SearchBar';
-import Slider from './components/Slider';
-import Tabs from './components/Tabs';
+import Home from './Pages/Home';
+import {BrowserRouter as Router , Routes , Route} from 'react-router-dom';
+
+import Login from './components/Login';
+
+import Singup from './components/Singup';
+
+import UserProfile from './components/UserProfile';
+import ProductDetails from './components/ProductDetails';
 
 function App() {
   return (
   <>
-<Hero/>
-<SearchBar/>
-<Slider/>
-<div className='container'>
-<Tabs/>
-<Cards/>
-</div>
-<div className='banner'>
-<BannerSection/>
-<BannerSlider/>
-</div>
-<OurCollection/>
-<GrabDeal/>
-<Review/>
-<Footer/>
+ <Router>
+      
+      <Routes>
+      <Route path="/" element={<Home/>}/>
+       
+        <Route path="/login" element={<Login/>}/>
+        <Route path="/signup" element={<Singup/>}/>
+        <Route path="/userprofile" element={<UserProfile/>}/>
+        <Route path="/productdetails" element={<ProductDetails/>}/>
+
+
+
+ 
+      </Routes>
+      
+    </Router>
+
+
+
+
+
   </>
   );
 }
